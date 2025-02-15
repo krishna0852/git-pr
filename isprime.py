@@ -8,6 +8,8 @@ if number == 0:
     #print("Number should not be zero")
     sys.exit("Number should not be zero")
 
+print("Checking prime logic")
+
 for i in range(1,number+1):
     if (number % i == 0):
         #print(i)
